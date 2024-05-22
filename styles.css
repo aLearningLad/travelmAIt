@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.forecasts-styles {
+  @apply w-full bg-neutral-200/30 rounded-lg lg:rounded-2xl h-full flex flex-col items-center justify-center text-center;
+}
+
+.condition-text {
+  @apply text-[10px] text-white;
+}
+
+.tempText {
+  @apply text-[12px];
+}
+
+.weatherIcon {
+  @apply w-[40px] h-[40px] rounded-md;
+}
+
+.dateDisplay {
+  @apply text-[10px] font-semibold;
+}
