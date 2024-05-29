@@ -1,6 +1,7 @@
 # About travelmAIt
 
 This is a tiny vanilla Javascript travel activity planner. 
+[AppImage](https://github.com/aLearningLad/travelmAIt/blob/main/travelmait.png)
 
 It provides the user with weather information and potential activity ideas for their chosen location. 
 The weather data is pulled from the public [Open Weather API](https://openweathermap.org/api). The activity suggestions are fed via an API call to [ChatGPT](https://chatgpt.com), which returns a response to be shown to the user. 
